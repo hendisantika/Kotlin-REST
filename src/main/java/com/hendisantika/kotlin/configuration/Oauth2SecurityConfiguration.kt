@@ -32,7 +32,7 @@ open class Oauth2SecurityConfiguration {
 
         override fun configure(resourceServerSecurityConfigurer: ResourceServerSecurityConfigurer) {
             resourceServerSecurityConfigurer
-                    .resourceId("belajar");
+                    .resourceId("belajar")
         }
 
         override fun configure(httpSecurity: HttpSecurity) {
