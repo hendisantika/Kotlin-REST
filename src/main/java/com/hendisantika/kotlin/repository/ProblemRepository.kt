@@ -12,5 +12,4 @@ import org.springframework.security.access.prepost.PreAuthorize
 
 @PreAuthorize("hasRole('ROLE_USER')")
 @RepositoryRestResource(collectionResourceRel = "problem", path = "problem")
-interface ProblemRepository : PagingAndSortingRepository<Problem, String> {
-}
+interface ProblemRepository : PagingAndSortingRepository<Problem, String>
