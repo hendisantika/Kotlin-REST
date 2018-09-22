@@ -1,9 +1,9 @@
 package com.hendisantika.kotlin
 
-import org.springframework.boot.autoconfigure.SpringBootApplication
-import org.springframework.session.data.redis.config.annotation.web.http.EnableRedisHttpSession
-import org.springframework.hateoas.config.EnableHypermediaSupport
 import org.springframework.boot.SpringApplication
+import org.springframework.boot.autoconfigure.SpringBootApplication
+import org.springframework.hateoas.config.EnableHypermediaSupport
+import org.springframework.session.data.redis.config.annotation.web.http.EnableRedisHttpSession
 
 /*
 
