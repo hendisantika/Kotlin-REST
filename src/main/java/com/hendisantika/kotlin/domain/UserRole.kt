@@ -3,17 +3,7 @@ package com.hendisantika.kotlin.domain
 import com.fasterxml.jackson.annotation.JsonIgnore
 import org.hibernate.annotations.GenericGenerator
 import java.io.Serializable
-import javax.persistence.CascadeType
-import javax.persistence.Column
-import javax.persistence.ConstraintMode
-import javax.persistence.Entity
-import javax.persistence.FetchType
-import javax.persistence.ForeignKey
-import javax.persistence.GeneratedValue
-import javax.persistence.Id
-import javax.persistence.JoinColumn
-import javax.persistence.ManyToOne
-import javax.persistence.Table
+import javax.persistence.*
 
 
 /*
