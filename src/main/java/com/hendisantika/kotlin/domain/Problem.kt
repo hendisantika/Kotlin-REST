@@ -3,17 +3,8 @@ package com.hendisantika.kotlin
 import com.hendisantika.kotlin.domain.Status
 import org.hibernate.annotations.GenericGenerator
 import java.io.Serializable
-import java.util.Date
-import javax.persistence.Column
-import javax.persistence.Entity
-import javax.persistence.EnumType
-import javax.persistence.Enumerated
-import javax.persistence.GeneratedValue
-import javax.persistence.Id
-import javax.persistence.Lob
-import javax.persistence.Table
-import javax.persistence.Temporal
-import javax.persistence.TemporalType
+import java.util.*
+import javax.persistence.*
 
 
 /*
